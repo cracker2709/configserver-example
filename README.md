@@ -12,7 +12,7 @@ or via docker
 docker run --network=host cracker2709/spring-cloud-configserver-example:latest
 ```
 
-Client config to set in bootstap for service1 branch develop
+Client config to set in src/main/resources/bootstrap.yml for service1 branch develop
 
 ```yaml
 spring:
