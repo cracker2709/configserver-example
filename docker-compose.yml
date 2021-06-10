@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  configserver:
+    image: cracker2709/spring-cloud-configserver-example:latest
+    container_name: configserver
+    restart: always
+
